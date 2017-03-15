@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<title>CUETS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="script" href="https://www.w3schools.com/lib/w3codecolor.js">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+.w3-code{color:#FFFFFF; background-color:#000; border-left:4px solid #ac0000;}
+/* remove text decoration on fa elements */
+a.fa { text-decoration:none}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="/images/logo.png" style="width:100%">
+  <a class="w3-padding-large w3-black" href="/index.html#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="/index.html#about">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="/index.html#photos">
+    <i class="fa fa-tasks w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="/index.html#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a class="w3-bar-item w3-button" style="width:25% !important" href="/index.html#">HOME</a>
+    <a class="w3-bar-item w3-button" style="width:25% !important" href="/index.html#about">ABOUT</a>
+    <a class="w3-bar-item w3-button" style="width:25% !important" href="/index.html#photos">PROJECTS</a>
+    <a class="w3-bar-item w3-button" style="width:25% !important" href="/index.html#contact">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Project</span> Title</h1> <!-- Use a name that can be shortened if possible, where the shorter part is inside the span, makes it better for mobile -->
+    <p>Project Subtitle or Tag line</p>
+	<!-- Optional Project Image -->
+    <img src="/images/logo.png" alt="webmain" class="w3-image">
+  </header>
+
+  <!-- Project Content -->
+ <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+<!-- All following sections can be copy-pasted, edited, re-ordered, etc to make the project page -->
+<!-- Text Paragraph -->
+    <h2 class="w3-text-light-grey">About Us</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+<!-- End Tex Paragraph -->
+<!-- Event or Comparisons -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Upcoming Events</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Event one</li>
+          <li class="w3-padding-16">Insert Date</li>
+          <li class="w3-padding-16">Insert Time</li>
+          <li class="w3-padding-16">Insert Locationt</li>
+          <li class="w3-padding-16"> Insert Description</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+    <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Event two</li>
+          <li class="w3-padding-16">Insert Date</li>
+          <li class="w3-padding-16">Insert Time</li>
+          <li class="w3-padding-16">Insert Locationt</li>
+          <li class="w3-padding-16"> Insert Description</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+</div>
+    <!-- End Comparisons -->
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/images/logo.png
+" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>Jane Doe saved us from a web disaster.</p><br>
+    
+    <img src="/images/logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than Jane Doe.</p>
+<!-- End Testimonials -->
+<!-- Quote -->
+<div class="w3-panel w3-leftbar w3-black">
+  <p class="w3-xlarge w3-serif">
+  <i>"Make it as simple as possible, but not simpler."</i></p>
+  <p>Albert Einstein</p>
+</div>
+<!-- End Quote -->  
+<!-- Code -->
+<div class="w3-example w3-black">
+    <h3>Code Block title (optional)</h3>
+    <div class="w3-code notranslate">
+      fruits[0] = "Banana";<br>
+      fruits[1] = "Apple";<br>
+      fruits[2] = "Mango";<br>
+      fruits[3] = "Plum";<br>
+    </div>
+  </div>
+<!-- End Code -->
+<!-- Code no Block -->
+<div class="w3-code notranslate">
+      fruits[0] = "Banana";<br>
+      fruits[1] = "Apple";<br>
+      fruits[2] = "Mango";<br>
+      fruits[3] = "Plum";<br>
+    </div>
+<!-- End Code no Block -->
+<!-- Downloads/Github Link - Include whenever possible, just shove it up on github. -->
+<div class="w3-padding-64 w3-content" id="downloads">
+<h2 class="w3-text-light-grey">Downloads</h2>
+    <hr style="width:200px" class="w3-opacity">
+<table class="w3-table">
+<tr class="w3-black" style="background-color:#ac0000">
+  <th style="background-color:#ac0000">File Name</th>
+  <th style="background-color:#ac0000">Size</th>
+  <th style="background-color:#ac0000">Link</th>
+</tr>
+<!-- Repeat this TR for however many files -->
+<tr class="w3-white">
+  <td>ABC.exe</td>
+  <td>50 MBytes</td>
+  <td><a class="w3-btn" href="/downloads/filenamehere.exe">Download</a></td>
+</tr>
+<tr class="w3-black">
+<th style="background-color:#ac0000" colspan="3"><center> <a class="w3-btn w3-white w3-ripple w3-round-large" href="http://github.com/FILL THIS IN"><i class="fa fa-github"></i> Find this project on Github</a></center> </th>
+</tr>
+</table>
+<!-- End Downloads Github Link -->
+<!-- Inline Code Example -->
+<p> This is some text yadadaadaa but <code class="w3-codespan w3-black"> this </code> was code! </p>
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Our Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+<div class="w3-card-12 w3-dark-grey " style="padding:10px">
+  <img src="images/logo.png" alt="Project 1" style="width:100%">
+  <div class="w3-container w3-center">
+    <p>Example Project One</p>
+<a class="w3-button" href="#">Read More</a>
+  </div>
+</div>
+      </div>
+
+      <div class="w3-half">
+<div class="w3-card-12 w3-dark-grey " style="padding:10px">
+  <img src="images/logo.png" alt="Project 1" style="width:100%">
+  <div class="w3-container w3-center">
+    <p>Example Project Two</p>
+<a class="w3-button" href="#">Read More</a>
+  </div>
+</div>
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+<!-- Author Section -->
+<div class="w3-content w3-container w3-black" id="author">
+<img src="/images/logo.png" alt="Author" class="w3-left w3-circle w3-margin-right" style="width:160px">
+    <p><span class="w3-large w3-margin-right">Insert Name Here</span><br/> Insert Degree name or Job etc Here</p>
+    <p>Insert a brief bio (optional) </p>
+<div class="w3-text-grey w3-xlarge" style="text-decoration:none"> <!-- delete as req -->
+    <a class="fa fa-facebook-official w3-hover-text-indigo" href="your fb here"></a>
+    <a class="fa fa-instagram w3-hover-text-purple" href="your instagram here" ></a>
+    <a class="fa fa-snapchat w3-hover-text-yellow" href="your snapchat here"></a>
+    <a class="fa fa-pinterest-p w3-hover-text-red" href="your pinterest?? here"></a>
+    <a class="fa fa-twitter w3-hover-text-light-blue" href="your twitter here"></a>
+    <a class="fa fa-linkedin w3-hover-text-indigo" href="your linkedin here"></a>
+    <a class="fa fa-github w3-hover-text-white" href="your github here"></a>
+    <a class="fa fa-envelope w3-hover-text-white" href="mailto:your email here"></a>
+</div>
+<br>
+<!-- End Author Section -->
+</div>
+  <!-- Dont Edit below here! -->
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<p class="w3-medium">Theme Modified by <a href="https://jtmorris.info" target="_blank" class="w3-hover-text-green">J Thomas Morris</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+
